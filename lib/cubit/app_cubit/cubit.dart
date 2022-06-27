@@ -30,14 +30,14 @@ class AppCubit extends Cubit<AppStates> {
     DioHelper.putData(
             url: update,
             data: {
-              'name': 'Ali Maher m',
-              'phone': '0114259595',
-              'email': 'ali84008500@gmail.com',
+              'name': 'ali maher 2',
+              'phone': '01142595951',
+              'email': 'ali8400085@gmail.com',
               'password': '12345678',
               'image':base64Image,
             },
             token:
-                'i8fLCf2ilYAPU3lFjkdcHcbPjPphGZe1hO8EapByvTaLxcVJIH9dtuCNb1zbeCiHueuVpe')
+                '4wmmxairGgNTQ845LQQnulb6QcHCvXNtVNjdyBTMShwyk8rGMPUBFopgjdJbFjPwtfsOpo')
         .then((value) {
       print(value.data.toString());
       emit(AppSuccessImageState());
